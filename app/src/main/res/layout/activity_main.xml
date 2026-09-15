@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Cross Platform Earthquake App"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView1"
+        android:gravity="center" />
+
+    <TextView
+        android:text="[Latest Earthquake Information]"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:id="@+id/text_earthquake_info"
+        android:gravity="center" />
+
+    <TextView
+        android:text="Alert Status: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_alert_status"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:text="RETRIEVE LAST EARTHQUAKE RECORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_record"
+        android:backgroundTint="#ff110d0d" />
+
+    <Button
+        android:text="ACTIVATE S.O.S"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sos_on"
+        app:backgroundTint="#ff000000" />
+
+    <Button
+        android:text="RESET / EVACUATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sos_off"
+        app:backgroundTint="#ff000000" />
+
+</LinearLayout>
